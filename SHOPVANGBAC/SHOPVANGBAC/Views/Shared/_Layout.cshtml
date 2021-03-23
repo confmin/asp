@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Luxury Watches</title>
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/css/jquery-ui.css" rel="stylesheet" />
+    <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
+    <script src="~/Scripts/js/jquery-1.11.0.min.js"></script>
+    <script src="~/Scripts/js/jquery-ui.js"></script>
+    <!--Custom-Theme-files-->
+    <!--theme-style-->
+    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Luxury Watches Responsive web" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--start-menu-->
+    <script src="~/Scripts/js/simpleCart.min.js"> </script>
+    <link href="~/Content/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="~/Scripts/js/memenu.js"></script>
+    <script>$(document).ready(function(){$(".memenu").memenu();});</script>
+    <!--dropdown-->
+    <script src="~/Scripts/js/jquery.easydropdown.js"></script>
+    <link href="~/Content/Custom.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <!--top-header-->
+    <div class="top-header">
+        <div class="container">
+            <div class="top-header-main">
+                <div class="col-md-6 top-header-left">
+                    <div class="drop">
+                        @{ Html.RenderAction("UserMenu", "Account"); }
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+               
+                <div class="col-md-2 top-header-left">
+                    @{ Html.RenderAction("CartMenu", "Cart"); }
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--top-header-->
+    <!--start-logo-->
+    <div class="logo">
+        <a href="~/Home/index"><h1>Vàng Bạc Vip</h1></a>
+    </div>
+    <!--start-logo-->
+    <!--bottom-header-->
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header">
+                <div class="col-md-9 header-left">
+                    <div class="top-nav">
+                        <ul class="memenu skyblue">
+                            <li class="active"><a href="~/Home/index">Trang chủ</a></li>
+                            <li class="grid">
+                                <a href="~/san-pham/tat-ca">Sản Phẩm</a>
+                            </li>
+                            <li class="grid">
+                                <a href="~/san-pham/dong-ho-nam">Men</a>
+                            </li>
+                            <li class="grid">
+                                <a href="~/san-pham/dong-ho-nu">Women</a>
+                            </li>
+                            <li class="grid">
+                                <a href="~/Home/Contact">Liên Hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-3 header-right">
+                    <div class="search-bar">
+                        <form action="/tim-kiem" method="get">
+                            <input type="text" value="Search" name="keyword" id="txtkeyword" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                            <input type="submit" value="" class="glyphicon-search">
+                        </form>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+
+    @RenderBody()
+
+    <!--information-starts-->
+   
+    <!--information-end-->
+    <!--footer-starts-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="col-md-6 footer-left">
+                    <form>
+                        <input type="text" value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-6 footer-right">
+                    <p>© 2021 Giàu vì vàng sang vì bạc | Thiết kế bởi  <a href="http://fb.com/" target="_blank">DT2-K21</a> </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--footer-end-->
+    <script src="~/Scripts/js/baseController.js"></script>
+</body>
+</html>
