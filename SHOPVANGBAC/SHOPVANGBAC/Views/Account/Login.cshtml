@@ -10,8 +10,8 @@
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
-                <li><a href="~/Home/Index">Home</a></li>
-                <li class="active">Account</li>
+                <li><a href="~/Home/Index">Trang chủ</a></li>
+                <li class="active">Tài Khoản</li>
             </ol>
         </div>
     </div>
@@ -28,7 +28,7 @@
             @Html.AntiForgeryToken()
             <div class="account-main">
                 <div class="col-md-6 account-left">
-                    <h3>Existing User</h3>
+                    <h3>Thoát</h3>
                     <div>
                         <p style="color:#f00">
                             @ViewBag.MessageLogin
@@ -41,17 +41,17 @@
                         <input name="PassWord" placeholder="Password" type="password" tabindex="6" required value="@Model.PassWord">
                         <br />
                         <input name="RememberMe" type="checkbox" tabindex="7" value="@Model.RememberMe">
-                        <span style="font-family: 'Lato-Regular'; text-align: center; color: #666; font-weight: 500; font-size: 14px; margin-left: 5px">Remember Me?</span>
+                        <span style="font-family: 'Lato-Regular'; text-align: center; color: #666; font-weight: 500; font-size: 14px; margin-left: 5px">Nhớ tài khoản?</span>
                         <div class="address">
-                            <a class="forgot" href="#">Forgot Your Password?</a>
+                            <a class="forgot" href="#">Quên Mật Khẩu?</a>
                             <input type="submit" value="Login">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 account-right account-left">
-                    <h3>New User? Create an Account</h3>
-                    <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
-                    <a href="~/dang-ky">Create an Account</a>
+                    <h3>Bạn là người mới hãy tạo tài khoản ngay !</h3>
+                    <p>Đăng ký tài khoản để thoả ga mua sắm và quản lý thông tin của bạn một cách dễ dàng</p>
+                    <a href="~/dang-ky">tạo tài khoản ngay !</a>
                 </div>
                 <div class="clearfix"></div>
             </div>
