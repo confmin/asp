@@ -267,9 +267,9 @@
     <Content Include="images\abt-2.jpg" />
     <Content Include="images\abt-3.jpg" />
     <Content Include="images\arrow.png" />
-    <Content Include="images\bnr-1.jpg" />
-    <Content Include="images\bnr-2.jpg" />
-    <Content Include="images\bnr-3.jpg" />
+    <Content Include="images\back-1.jpg" />
+    <Content Include="images\back-2.jpg" />
+    <Content Include="images\back-3.jpg" />
     <Content Include="images\c-1.jpg" />
     <Content Include="images\c-2.jpg" />
     <Content Include="images\c-3.jpg" />
