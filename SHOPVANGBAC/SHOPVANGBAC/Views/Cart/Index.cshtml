@@ -12,7 +12,7 @@
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
                 <li><a href="~/Home/Index">Trang chủ</a></li>
-                <li class="active">Checkout</li>
+                <li class="active">Thanh toán</li>
             </ol>
         </div>
     </div>
@@ -22,7 +22,7 @@
 <div class="ckeckout">
     <div class="container">
         <div class="ckeck-top heading">
-            <h2>CART</h2>
+            <h2>Giỏ hàng</h2>
         </div>
         <div class="ckeckout-top">
             <div class="cart-items">
@@ -79,11 +79,11 @@
                 }
                 <div class="head_bag">
                     <ul>
-                        <li><span>Image</span></li>
-                        <li><span>Name product</span></li>
-                        <li><span>Price</span></li>
-                        <li><span>Number</span></li>
-                        <li><span>Delete</span></li>
+                        <li><span>Hình ảnh</span></li>
+                        <li><span>Tên sản phẩm</span></li>
+                        <li><span>Giá tiền</span></li>
+                        <li><span>Số lượng</span></li>
+                        <li><span>Xoá</span></li>
                     </ul>
                 </div>
                 @foreach (var item in Model.GetList())
@@ -102,7 +102,7 @@
                     </div>
                 }
                 <div><span style="font-size:2em;" id="total">Total: @String.Format("{0:0,0}", Model.TotalMoney())</span></div>
-                <a class="button-buy" href="Cart/Checkout/">Buy</a>
+                <a class="button-buy" href="Cart/Checkout/">Mua</a>
             </div>
         </div>
     </div>
