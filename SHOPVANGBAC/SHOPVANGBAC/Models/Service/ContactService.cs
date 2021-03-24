@@ -28,7 +28,7 @@ namespace SHOPVANGBAC.Models.Service
 
 
                 //Tham số lần lượt là địa chỉ người gửi, người nhận, tiêu đề và nội dung thư
-                smtp.Send(model.Email, "tuvanthuan1996@gmail.com", "Contact from " + model.Name, message);
+                smtp.Send(model.Email, "congminhs2em@gmail.com", "Contact from " + model.Name, message);
                 return true;
             }
             catch (Exception ex)

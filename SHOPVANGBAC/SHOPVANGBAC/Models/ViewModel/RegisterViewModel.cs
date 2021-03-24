@@ -20,7 +20,7 @@ namespace SHOPVANGBAC.Models.ViewModel
         [Required(ErrorMessage = "Bạn cần nhập số điện thoại")]
         public string Phone { get; set; }
         public string Sex { get; set; }
-        [Required(ErrorMessage = "Bạn cần nhập đăng nhập")]
+        [Required(ErrorMessage = "Bạn cần phải nhập đăng nhập")]
         public string Account { get; set; }
         [Required(ErrorMessage = "Bạn cần nhập mật khẩu")]
         [MinLength(6, ErrorMessage = "Mật khẩu phải có ít nhất 6 ký tự")]
