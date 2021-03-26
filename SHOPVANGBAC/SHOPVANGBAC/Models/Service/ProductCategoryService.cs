@@ -36,7 +36,7 @@ namespace SHOPVANGBAC.Models.Service
 
                 }
             }
-            if (category == "dong-ho-nam")
+            if (category == "bac")
             {
                 totalRecord = (from sp in db.SANPHAMs
                                where sp.MALOAISP == "LP00001"
@@ -54,7 +54,7 @@ namespace SHOPVANGBAC.Models.Service
 
                 }
             }
-            if (category == "dong-ho-nu")
+            if (category == "vang")
             {
                 totalRecord = (from sp in db.SANPHAMs
                                where sp.MALOAISP == "LP00002"
@@ -97,7 +97,6 @@ namespace SHOPVANGBAC.Models.Service
             return result;
         }
         /// <summary>
-        /// Service load sản phẩm nam
         /// </summary>
         /// <returns></returns>
         public static List<ProductViewModel> LoadProductMen()
@@ -121,7 +120,6 @@ namespace SHOPVANGBAC.Models.Service
             return result;
         }
         /// <summary>
-        /// Service load sản phẩm nữ
         /// </summary>
         /// <returns></returns>
         public static List<ProductViewModel> LoadProductWomen()
