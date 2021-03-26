@@ -27,14 +27,7 @@
 <div class="register">
     <div class="container">
         <form method="post" action="~/dang-ky">
-            @Html.AntiForgeryToken()
-            @if (ViewData["SuccessMsg"] != null)
-            {
-                <div class="alert alert-success" role="alert"> 
-                    <strong>Chúc mừng bạn!</strong> đã đăng ký thành công.
-                    <br />Vui lòng click <a href="~/dang-nhap">vào đây</a> để đăng nhập.
-                </div>
-            }
+           
             <div class="register-top heading">
                 <h2>Đăng ký</h2>
             </div>
@@ -73,10 +66,18 @@
                     @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger", @style = "color: red" })
                     @*@Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger", @style = "color: red" })*@
                     @Html.ValidationMessageFor(model => model.Account, "", new { @class = "text-danger", @style = "color: red" })
-                 </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="address submit">
+                     @Html.AntiForgeryToken()
+                    @if (ViewData["SuccessMsg"] != null)
+                        { 
+                        <div class="alert alert-success" role="alert"> 
+                            <strong>Chúc mừng bạn!</strong> đã đăng ký thành công.
+                            <br />Vui lòng click <a href="~/dang-nhap">vào đây</a> để đăng nhập.
+                        </div>
+                    }
+                         </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="address submit">
                 <input id="btnSubmit" type="submit" value="Submit">
             </div>
         </form>

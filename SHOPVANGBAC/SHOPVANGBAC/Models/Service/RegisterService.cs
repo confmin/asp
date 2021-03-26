@@ -147,6 +147,7 @@ namespace SHOPVANGBAC.Models.Service
             TAIKHOAN account = new TAIKHOAN { TENDN = register.Account, MATKHAU = Encryptor.MD5Hash(register.Password), MALOAITK = "LK00002", NGAYDANGKY = DateTime.Now,  TRANGTHAI = true };
             db.TAIKHOANs.Add(account);
             db.SaveChanges();
+            
 
             // Tạo mới khách hàng
             KHACHHANG customer = new KHACHHANG { MATK = matk, TENKH = register.FirstName + register.LastName, DIACHI = register.Address, EMAIL = register.Email, SDT = register.Phone, GIOITINH = register.Sex };
