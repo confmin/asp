@@ -20,3 +20,26 @@ C:\Users\bongm\OneDrive\Máy tính\ASP\SHOPVANGBAC\SHOPVANGBAC.Domain\obj\Debug\
 C:\Users\bongm\OneDrive\Máy tính\ASP\SHOPVANGBAC\SHOPVANGBAC.Domain\obj\Debug\SHOPVANGBAC.Domain.csproj.CopyComplete
 C:\Users\bongm\OneDrive\Máy tính\ASP\SHOPVANGBAC\SHOPVANGBAC.Domain\obj\Debug\SHOPVANGBAC.Domain.dll
 C:\Users\bongm\OneDrive\Máy tính\ASP\SHOPVANGBAC\SHOPVANGBAC.Domain\obj\Debug\SHOPVANGBAC.Domain.pdb
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\SHOPVANGBAC.Domain.dll.config
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\SHOPVANGBAC.Domain.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\SHOPVANGBAC.Domain.pdb
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\EntityFramework.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\EntityFramework.xml
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\obj\Debug\SHOPVANGBAC.Domain.csprojAssemblyReference.cache
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\obj\Debug\SHOPVANGBAC.Domain.csproj.CoreCompileInputs.cache
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\obj\Debug\SHOPVANGBAC.Domain.csproj.CopyComplete
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\obj\Debug\SHOPVANGBAC.Domain.dll
+C:\Users\CONGMINHPC\OneDrive - GSU\Desktop\asp\SHOPVANGBAC\SHOPVANGBAC.Domain\obj\Debug\SHOPVANGBAC.Domain.pdb

@@ -22,7 +22,7 @@ namespace SHOPVANGBAC.Models.Service
                 //SMTP yêu cầu mã hóa dữ liệu theo SSL
                 smtp.EnableSsl = true;
                 //UserName và Password của mail
-                smtp.Credentials = new NetworkCredential("tuvanthuan1996@gmail.com", "Thuan302");
+                smtp.Credentials = new NetworkCredential("congminhs2em@gmail.com", "congminhkaka");
                 String message = "Mail send from " + model.Name + "\n" +
                   "Phone: " + model.Phone + "\n" + model.Content;
 

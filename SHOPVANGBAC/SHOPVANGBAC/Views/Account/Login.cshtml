@@ -22,13 +22,12 @@
     <div class="container">
         <form method="post" action="~/dang-nhap">
             <div class="account-top heading">
-                <h2>ACCOUNT</h2>
+                <h2 style="margin-right:600px;">Đăng Nhập</h2>
             </div>
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
             @Html.AntiForgeryToken()
             <div class="account-main">
                 <div class="col-md-6 account-left">
-                    <h3>Thoát</h3>
                     <div>
                         <p style="color:#f00">
                             @ViewBag.MessageLogin

@@ -10,7 +10,7 @@ namespace SHOPVANGBAC.Models.Service
     public class ProductCategoryService
     {
         /// <summary>
-        /// category[donghonam, donghonu, null], pageIndex: số trang hiện tại, pageSize: số phần tử trong 1 trang
+
         /// </summary>
         /// <param name="category"></param>
         /// <param name="pageIndex"></param>
@@ -20,7 +20,7 @@ namespace SHOPVANGBAC.Models.Service
         {
             IEnumerable<SANPHAM> ListProductCategory = null;
             SHOPVANGBACEntities db = new SHOPVANGBACEntities();
-            if (category == "tat-ca")
+            if (category =="tat-ca")
             {
                 totalRecord = (from sp in db.SANPHAMs
                                orderby sp.MASP descending
@@ -36,7 +36,7 @@ namespace SHOPVANGBAC.Models.Service
 
                 }
             }
-            if (category == "bac")
+            if (category =="bac")
             {
                 totalRecord = (from sp in db.SANPHAMs
                                where sp.MALOAISP == "LP00001"
@@ -54,7 +54,7 @@ namespace SHOPVANGBAC.Models.Service
 
                 }
             }
-            if (category == "vang")
+            if (category =="vang")
             {
                 totalRecord = (from sp in db.SANPHAMs
                                where sp.MALOAISP == "LP00002"
@@ -99,19 +99,19 @@ namespace SHOPVANGBAC.Models.Service
         /// <summary>
         /// </summary>
         /// <returns></returns>
-        public static List<ProductViewModel> LoadProductMen()
+        public static List<ProductViewModel> LoadProductBac()
         {
             SHOPVANGBACEntities db = new SHOPVANGBACEntities();
             List<ProductViewModel> result = new List<ProductViewModel>();
-            IEnumerable<SANPHAM> LoadProductMen = new List<SANPHAM>();
+            IEnumerable<SANPHAM> LoadProductBac = new List<SANPHAM>();
 
-            LoadProductMen = (from sp in db.SANPHAMs
+            LoadProductBac = (from sp in db.SANPHAMs
                               where sp.MALOAISP == "LP00001"
                               orderby sp.MASP descending
                               select sp);
 
             // Lấy promotion của sản phẩm
-            foreach (SANPHAM sp in LoadProductMen)
+            foreach (SANPHAM sp in LoadProductBac)
             {
                 int Promotion = PromotionService.GetPromotion(sp.MASP);
                 ProductViewModel productViewModel = new ProductViewModel { Product = sp, Promotion = Promotion };
@@ -122,19 +122,19 @@ namespace SHOPVANGBAC.Models.Service
         /// <summary>
         /// </summary>
         /// <returns></returns>
-        public static List<ProductViewModel> LoadProductWomen()
+        public static List<ProductViewModel> LoadProductVang()
         {
             SHOPVANGBACEntities db = new SHOPVANGBACEntities();
             List<ProductViewModel> result = new List<ProductViewModel>();
-            IEnumerable<SANPHAM> LoadProductWomen = new List<SANPHAM>();
+            IEnumerable<SANPHAM> LoadProductVang = new List<SANPHAM>();
 
-            LoadProductWomen = (from sp in db.SANPHAMs
+            LoadProductVang = (from sp in db.SANPHAMs
                               where sp.MALOAISP == "LP00002"
                               orderby sp.MASP descending
                               select sp);
 
             // Lấy promotion của sản phẩm
-            foreach (SANPHAM sp in LoadProductWomen)
+            foreach (SANPHAM sp in LoadProductVang)
             {
                 int Promotion = PromotionService.GetPromotion(sp.MASP);
                 ProductViewModel productViewModel = new ProductViewModel { Product = sp, Promotion = Promotion };

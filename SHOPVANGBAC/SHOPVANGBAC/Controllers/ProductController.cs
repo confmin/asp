@@ -25,13 +25,13 @@ namespace SHOPVANGBAC.Controllers
             }
             else
             {
-                if(cateKey == "dong-ho-nam")
+                if(cateKey == "bac")
                 {
-                    prctViewModel.ListProductCategory = ProductCategoryService.LoadProductMen();
+                    prctViewModel.ListProductCategory = ProductCategoryService.LoadProductBac();
                 }
                 else
                 {
-                    prctViewModel.ListProductCategory = ProductCategoryService.LoadProductWomen();
+                    prctViewModel.ListProductCategory = ProductCategoryService.LoadProductVang();
                 }
             }
 
