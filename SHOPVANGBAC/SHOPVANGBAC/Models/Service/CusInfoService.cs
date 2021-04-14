@@ -68,7 +68,7 @@ namespace SHOPVANGBAC.Models.Service
         public static int GetIdCustomer(long IdAccount)
         {
             SHOPVANGBACEntities db = new SHOPVANGBACEntities();
-            return db.KHACHHANGs.Where(s => s.MATK == IdAccount).SingleOrDefault().MAKH;
+            return db.KHACHHANGs.Where(s => s.MAKH == IdAccount).SingleOrDefault().MAKH;
         }
 
     }
